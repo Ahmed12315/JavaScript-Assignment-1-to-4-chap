@@ -1,0 +1,42 @@
+p{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+}
+.Question{
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: lighter;
+}
+.section{
+    margin-left: 500px;
+    border:2px solid black;
+    height: 200px;
+    width: 480px;
+}
+@media screen and (max-width:1441px) {
+    .section{
+        margin-left: 480px;
+    }
+    
+}
+@media screen and (max-width:1025px) {
+    .section{
+        margin-left: 270px;
+    }
+    
+}
+@media screen and (max-width:769px) {
+    .section{
+        margin-left: 140px;
+    }
+    
+}
+.section .text{
+    font-size: 1.5em;
+    text-align: none;
+}
+.section li{
+    list-style: lower-alpha;
+    font-size: 1.5em;
+}
